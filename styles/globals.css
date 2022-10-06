@@ -14,7 +14,22 @@ a {
 * {
   box-sizing: border-box;
 }
+/* custom css beginning */
+#instructor {
+ margin-bottom: 2rem;
+}
 
+.markdown-window {
+  display: flex;
+  gap: 1rem;
+  width: 100%;
+}
+
+#editor {
+  width: 100%;
+}
+
+/* custom css end */
 @media (prefers-color-scheme: dark) {
   html {
     color-scheme: dark;
